@@ -9,7 +9,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: scroll;
-        height: 500px;
+        height: 800px;
         background-color: #cccccc;
       }
 
@@ -22,39 +22,52 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
   </head>
 
   <body>
     <div class="images">
-      <h1>Hello World! I'm Gurkirt</h1>
+      <div class="text-styles">
+        <h1>Hello World, my name is <strong>Gurkirt Heerey</strong></h1>
+      </div>
     </div>
 
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Personal Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Me!</a>
+        </li>
 
-    <li>
-      <div class="btns">
-        <a href="documents/Resume.docx" download>
-          <button type="button" class="btn btn-light btn-lg btn-outline-primary">Resume</button>
-        </a>
-        <button type="button" class="btn btn-light btn-lg btn-outline-primary">My Resume</button>
+      </ul>
+    </nav>
 
-      </div>
-      <div class="link--text">
-        <p>Let's Connect via <a href="https://www.linkedin.com/in/gurkirtheerey/">LinkedIn</a> and <a
-            href="https://www.facebook.com/gurkirt.heerey">Facebook</a>!</p>
-      </div>
 
-      <div class="links">
-        <a class="links--width" href="https://www.linkedin.com/in/gurkirtheerey/">
-          <img src="linkedinlogo.jpg" height="100" width="100">
-        </a>
-        <a class="links--width" href=" https://www.facebook.com/gurkirt.heerey"> <img src="facebooklogo.webp"
-            height="100" width="100">
-        </a>
-      </div>
+    <div class="btns">
+      <a href="documents/Resume.docx" download>
+        <button type="button" class="btn btn-light btn-lg btn-outline-primary">Download My Resume!</button>
+      </a>
+    </div>
+    <div class="link--text">
+      <p>Let's Connect via <a href="https://www.linkedin.com/in/gurkirtheerey/">LinkedIn</a> and <a
+          href="https://www.facebook.com/gurkirt.heerey">Facebook</a>!</p>
+    </div>
 
-    </li>
-
+    <div class="links">
+      <a class="links--width" href="https://www.linkedin.com/in/gurkirtheerey/">
+        <img src="linkedinlogo.jpg" height="100" width="100">
+      </a>
+      <a class="links--width" href=" https://www.facebook.com/gurkirt.heerey"> <img src="facebooklogo.jpg" height="100"
+          width="100">
+      </a>
+    </div>
   </body>
 
 </html>

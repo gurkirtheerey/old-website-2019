@@ -59,9 +59,13 @@
   height: 100%;
 }
 
-.about-text {}
-
 .myInformation {
   text-align: center;
   font-family: arapey, sans-serif;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

@@ -13,6 +13,21 @@
         background-color: #cccccc;
       }
 
+      #about {
+        height: 600px;
+        background-color: pink;
+      }
+
+      #portfolio {
+        height: 600px;
+        background-color: yellow;
+      }
+
+      #contact {
+        height: 600px;
+        background-color: orange;
+      }
+
     </style>
 
     <meta charset="UTF-8">
@@ -26,6 +41,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -35,8 +51,6 @@
         <h1><strong>Gurkirt Heerey</strong></h1>
       </div>
     </div>
-
-
 
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class="container">
@@ -54,15 +68,29 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me!</a></li>
           </ul>
         </div>
     </nav>
     </div>
+    <div class="main" id="about">
+      <h2>Section 1</h2>
+      <p>Click on the link to see the "smooth" scrolling effect.</p>
+      <a href="#portfolio">Click Me to Smooth Scroll to Section 2 Below</a>
+      <p>Note: Remove the scroll-behavior property to remove smooth scrolling.</p>
+    </div>
 
+    <div class="main" id="portfolio">
+      <h2>Section 2</h2>
+      <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
+    </div>
+
+    <div class="main" id="contact">
+      <h2>Section 2</h2>
+      <a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
+    </div>
 
     <div class="btns">
       <a href="documents/Resume.docx" download>
@@ -76,12 +104,14 @@
 
     <div class="links">
       <a class="links--width" href="https://www.linkedin.com/in/gurkirtheerey/">
-        <img src="linkedinlogo.jpg" height="100" width="100">
+        <img src="images/linkedinlogo.jpg" height="100" width="100">
       </a>
-      <a class="links--width" href=" https://www.facebook.com/gurkirt.heerey"> <img src="facebooklogo.jpg" height="100"
-          width="100">
+      <a class="links--width" href=" https://www.facebook.com/gurkirt.heerey"> <img src="images/facebooklogo.jpg"
+          height="100" width="100">
       </a>
     </div>
+
+
   </body>
 
 </html>

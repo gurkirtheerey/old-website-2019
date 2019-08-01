@@ -1,0 +1,11 @@
+.home {
+  background-color: #455A64;
+  color: white;
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+
+}

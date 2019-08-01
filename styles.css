@@ -59,9 +59,16 @@
   height: 100%;
 }
 
-.main {
+.portfolio {
   font-weight: bold;
   color: #E0E0E0;
   text-align: center;
   margin-top: 15%;
+}
+
+.contact-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }

@@ -59,16 +59,9 @@
   height: 100%;
 }
 
-.portfolio {
-  font-weight: bold;
-  color: #E0E0E0;
-  text-align: center;
-  margin-top: 15%;
-}
+.about-text {}
 
-.contact-text {
-  color: white;
-  display: flex;
-  flex-direction: column;
+.myInformation {
   text-align: center;
+  font-family: arapey, sans-serif;
 }

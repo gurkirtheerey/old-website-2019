@@ -1,6 +1,4 @@
 .home {
-  background-color: #455A64;
-  color: white;
   text-align: center;
 }
 
@@ -9,4 +7,19 @@
   align-items: center;
   justify-content: space-around;
   height: 300px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.links--width {
+  margin: 1%;
+}
+
+.link--text {
+  font-weight: bold;
+  text-align: center;
 }

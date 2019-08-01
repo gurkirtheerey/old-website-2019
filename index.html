@@ -2,6 +2,19 @@
 <html lang="en">
 
   <head>
+    <style>
+      body {
+        background-image: url("me.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        height: 50%;
+        background-color: #cccccc;
+      }
+
+    </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,23 +25,30 @@
     <script src="app.js"></script>
   </head>
 
-  <body style="background-color: #455A64">
-    <div class="home">
-      <h1>Welcome to Gurkirt Heerey's Personal Website</h1>
-      <h3>Here, you will be able to view my personal projects, hobbies, and be able to download my Resume!</h3>
+  <body>
+    <div id="bk">
+      <h1>Hello World! I'm Gurkirt</h1>
     </div>
 
     <div class="btns">
       <a href="documents/Resume.docx" download>
-        <button type="button" class="btn btn-dark btn-lg btn-outline-primary">My
-          Resume</button>
+        <button type="button" class="btn btn-light btn-lg btn-outline-primary">Resume</button>
       </a>
+      <button type="button" class="btn btn-light btn-lg btn-outline-primary">My Resume</button>
 
-      <a href="https://www.linkedin.com/in/gurkirtheerey/">
-        <button type="button" class="btn btn-dark btn-lg btn-outline-primary">LinkedIn</button>
+    </div>
+    <div class="link--text">
+      <p>Let's Connect via <a href="https://www.linkedin.com/in/gurkirtheerey/">LinkedIn</a> and <a
+          href="https://www.facebook.com/gurkirt.heerey">Facebook</a>!</p>
+    </div>
 
+    <div class="links">
+      <a class="links--width" href="https://www.linkedin.com/in/gurkirtheerey/">
+        <img src="linkedinlogo.jpg" height="100" width="100">
       </a>
-      <button type="button" class="btn btn-dark btn-lg btn-outline-primary">My Resume</button>
+      <a class="links--width" href=" https://www.facebook.com/gurkirt.heerey"> <img src="facebooklogo.webp" height="100"
+          width="100">
+      </a>
     </div>
 
   </body>

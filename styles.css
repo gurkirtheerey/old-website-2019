@@ -83,7 +83,8 @@ ul {
 .about-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .contact-text {
@@ -96,14 +97,12 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .about--images {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
+  justify-content: center;
 }
 
 .images {
@@ -117,13 +116,13 @@ ul {
 }
 
 #about {
-  height: 900px;
+  height: 1000px;
   background-color: #eee;
   padding: 10px;
 }
 
 #portfolio {
-  height: 1000px;
+  height: 2000px;
   padding: 10px;
 }
 

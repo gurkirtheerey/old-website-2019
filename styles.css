@@ -63,6 +63,12 @@
 
 }
 
+ul {
+  width: 20%;
+  margin: auto;
+  font-size: 20px;
+}
+
 .myInformation {
   text-align: center;
   font-family: arapey, sans-serif;

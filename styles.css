@@ -78,7 +78,12 @@ ul {
 .myInformation {
   text-align: center;
   font-family: arapey, sans-serif;
-  margin: 0px;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .contact-text {
@@ -92,7 +97,6 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-
 }
 
 .about--images {

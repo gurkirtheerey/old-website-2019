@@ -85,24 +85,33 @@ ul {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  text-align: center;
 }
 
 .contact-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-me-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .portfolio-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  position: relative;
+  top: 150px;
 }
 
 .about--images {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .images {
@@ -116,18 +125,17 @@ ul {
 }
 
 #about {
-  height: 1000px;
+  height: 75vh;
   background-color: #eee;
   padding: 10px;
 }
 
 #portfolio {
-  height: 2000px;
+  height: 100vh;
   padding: 10px;
 }
 
 #contact {
-  height: 600px;
+  height: 20vh;
   background-color: #eee;
-  padding: 10px;
 }

@@ -2,18 +2,16 @@
   text-align: center;
 }
 
-.btns {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 300px;
-}
-
 .links {
   display: flex;
   justify-content: center;
   align-items: flex-end;
 
+}
+
+.bottom-info {
+  position: relative;
+  top: 20vh;
 }
 
 .links--width {
@@ -23,6 +21,7 @@
 .link--text {
   font-weight: bold;
   text-align: center;
+  height: 150px;
 }
 
 .text-styles {
@@ -36,6 +35,11 @@
 
 .hello_world_text {
   font-size: 25px;
+}
+
+#resumeBtn {
+  position: relative;
+  top: 70px;
 }
 
 .navbar,
@@ -76,7 +80,6 @@ ul {
 }
 
 .myInformation {
-  text-align: center;
   font-family: arapey, sans-serif;
 }
 
@@ -103,8 +106,10 @@ ul {
 }
 
 .portfolio-text {
-  position: relative;
-  top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .about--images {
@@ -126,16 +131,29 @@ ul {
 
 #about {
   height: 75vh;
-  background-color: #eee;
   padding: 10px;
 }
 
 #portfolio {
   height: 100vh;
+  background-color: #eee;
+  padding: 10px;
+}
+
+#corevalues {
+  height: 41vh;
   padding: 10px;
 }
 
 #contact {
-  height: 20vh;
+  height: 25vh;
+  padding: 10px;
   background-color: #eee;
+}
+
+.my-core-values-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }

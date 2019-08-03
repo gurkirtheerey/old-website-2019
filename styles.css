@@ -6,12 +6,11 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-
 }
 
 .bottom-info {
   position: relative;
-  top: 20vh;
+  top: 30vh;
 }
 
 .links--width {
@@ -21,7 +20,6 @@
 .link--text {
   font-weight: bold;
   text-align: center;
-  height: 150px;
 }
 
 .text-styles {

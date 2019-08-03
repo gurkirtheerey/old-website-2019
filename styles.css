@@ -71,12 +71,6 @@
 
 }
 
-ul {
-  width: 20%;
-  margin: auto;
-  font-size: 20px;
-}
-
 .myInformation {
   font-family: arapey, sans-serif;
 }
@@ -128,7 +122,7 @@ ul {
 }
 
 #about {
-  height: 50vh;
+  height: 100vh;
   padding: 10px;
 }
 

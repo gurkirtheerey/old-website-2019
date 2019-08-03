@@ -35,9 +35,8 @@
   font-size: 25px;
 }
 
-#resumeBtn {
-  position: relative;
-  top: 70px;
+#contact {
+  background-color: #eee;
 }
 
 .navbar,
@@ -137,11 +136,6 @@
   padding: 10px;
 }
 
-#contact {
-  height: 100vh;
-  padding: 10px;
-  background-color: #eee;
-}
 
 .my-core-values-text {
   display: flex;

@@ -8,11 +8,6 @@
   align-items: flex-end;
 }
 
-.bottom-info {
-  position: relative;
-  top: 30vh;
-}
-
 .links--width {
   margin: 1%;
 }

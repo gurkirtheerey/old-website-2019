@@ -116,7 +116,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .images {
@@ -130,7 +130,7 @@ ul {
 }
 
 #about {
-  height: 100vh;
+  height: 50vh;
   padding: 10px;
 }
 
@@ -141,7 +141,7 @@ ul {
 }
 
 #corevalues {
-  height: 100vh;
+  height: 50vh;
   padding: 10px;
 }
 

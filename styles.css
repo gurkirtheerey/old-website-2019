@@ -121,18 +121,15 @@
 }
 
 #about {
-  height: 100vh;
   padding: 10px;
 }
 
 #portfolio {
-  height: 350vh;
   background-color: #eee;
   padding: 10px;
 }
 
 #corevalues {
-  height: 100vh;
   padding: 10px;
 }
 

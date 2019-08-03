@@ -130,7 +130,7 @@ ul {
 }
 
 #about {
-  height: 75vh;
+  height: 100vh;
   padding: 10px;
 }
 
@@ -141,12 +141,12 @@ ul {
 }
 
 #corevalues {
-  height: 44vh;
+  height: 100vh;
   padding: 10px;
 }
 
 #contact {
-  height: 25vh;
+  height: 100vh;
   padding: 10px;
   background-color: #eee;
 }
